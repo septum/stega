@@ -25,7 +25,7 @@ impl Carrier {
     }
 
     /// Get an iterator of each color for every pixel
-    pub fn subpixels(&mut self) -> impl Iterator<Item = &mut u8> + ExactSizeIterator {
+    pub fn subpixels(&mut self) -> impl ExactSizeIterator<Item = &mut u8> {
         self.0.iter_mut()
     }
 

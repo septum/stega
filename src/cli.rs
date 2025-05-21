@@ -45,7 +45,7 @@ impl Cli {
             match command {
                 Command::Conceal { data, image_path } => {
                     if let Some(data) = data {
-                        Cli::conceal(&data, image_path)?;
+                        Cli::conceal(data, image_path)?;
                     } else {
                         let data = Cli::stdin_data()?;
                         Cli::conceal(&data, image_path)?;
