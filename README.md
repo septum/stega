@@ -8,7 +8,7 @@ A simple tool and library to conceal and reveal UTF-8 encoded data within PNG im
 ## Disclaimer
 
 This tool and/or library does not guarantee the confidentiality of the data
-concealed in the resulting carrier images. Use this crate under your own risk.
+concealed in the resulting carrier images. Use this crate at your own risk.
 
 ## Library
 
