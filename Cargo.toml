@@ -2,7 +2,7 @@
 name = "stega"
 version = "0.1.0"
 authors = ["Orlando Valverde <orlando.jesig.va@gmail.com>"]
-edition = "2021"
+edition = "2024"
 license = "MIT OR Apache-2.0"
 description = "A simple tool and library to conceal and reveal UTF-8 encoded data within PNG images"
 homepage = "https://github.com/septum/stega"
