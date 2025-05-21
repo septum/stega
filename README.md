@@ -107,3 +107,7 @@ at your option.
 
 Contributions are very much welcome! If you find a bug, want a new feature or
 see an improvement opportunity, please open an issue or submit a PR.
+
+Unless you explicitly state otherwise, any contribution intentionally submitted
+for inclusion in the work by you, as defined in the Apache-2.0 license, shall be
+dual licensed as above, without any additional terms or conditions.
