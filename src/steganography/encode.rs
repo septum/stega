@@ -1,4 +1,4 @@
-use super::{carrier::Carrier, lsb, payload::Payload, SteganographyError};
+use super::{SteganographyError, carrier::Carrier, lsb, payload::Payload};
 
 /// Encodes a payload into a carrier by overwriting in place its least significant bits
 pub fn encode(payload: &Payload, carrier: &mut Carrier) -> Result<(), SteganographyError> {

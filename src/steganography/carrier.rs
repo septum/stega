@@ -2,7 +2,7 @@ use std::slice::ChunksExact;
 
 use image::RgbImage;
 
-use super::{lsb, SteganographyError};
+use super::{SteganographyError, lsb};
 
 const MIN_CARRIER_CAPACITY: usize = 27;
 

@@ -1,6 +1,6 @@
 use std::path::Path;
 
-use stega::{decode, encode, open_image, save_image, Carrier, Payload};
+use stega::{Carrier, Payload, decode, encode, open_image, save_image};
 
 const PAYLOAD_DATA: &str = "🦀";
 const FERRIS_PATH: &str = "tests/files/ferris.png";

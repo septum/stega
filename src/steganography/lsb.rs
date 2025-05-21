@@ -6,11 +6,7 @@ const LBS_ZERO_BIT_INDEXING: [u8; BITS_PER_BYTE] = [7, 6, 5, 4, 3, 2, 1, LBS_IND
 pub const BITS_PER_BYTE: usize = 8;
 
 pub fn encode(byte: &mut u8, bit: bool) {
-    if bit {
-        set_lsb(byte)
-    } else {
-        clear_lsb(byte)
-    }
+    if bit { set_lsb(byte) } else { clear_lsb(byte) }
 }
 
 pub fn byte_to_bits(byte: &u8) -> [bool; BITS_PER_BYTE] {

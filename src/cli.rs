@@ -1,11 +1,11 @@
 use std::{
-    io::{stdin, BufRead},
+    io::{BufRead, stdin},
     path::{Path, PathBuf},
 };
 
 use anyhow::Result;
 use clap::{Parser, Subcommand};
-use stega::{decode, encode, open_image, save_image, Carrier, Payload};
+use stega::{Carrier, Payload, decode, encode, open_image, save_image};
 
 const DEFAULT_CARRIER_FILENAME: &str = "carrier.png";
 

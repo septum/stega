@@ -1,4 +1,4 @@
-use super::{carrier::Carrier, lsb, payload::Payload, SteganographyError};
+use super::{SteganographyError, carrier::Carrier, lsb, payload::Payload};
 
 /// Reveal UTF-8 encoded data within a carrier by reading its least significant bits
 pub fn decode(carrier: &Carrier) -> Result<String, SteganographyError> {

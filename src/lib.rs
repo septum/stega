@@ -7,6 +7,6 @@
 mod image;
 mod steganography;
 
-pub use crate::image::{open_image, save_image, ImageError};
+pub use crate::image::{ImageError, open_image, save_image};
 
-pub use crate::steganography::{decode, encode, Carrier, Payload, SteganographyError};
+pub use crate::steganography::{Carrier, Payload, SteganographyError, decode, encode};
