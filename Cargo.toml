@@ -13,10 +13,18 @@ keywords = ["steganography", "conceal", "reveal", "utf-8", "png"]
 categories = ["command-line-utilities", "encoding"]
 
 [dependencies]
-anyhow = "1.0.65"
-clap = { version = "3.2.21", default-features = false, features = ["derive", "std"]}
-image = { version = "0.24.3", default-features = false , features = ["png"]}
-thiserror = "1.0.33"
+anyhow = "1.0"
+thiserror = "2.0"
+
+[dependencies.image]
+version = "0.25"
+default-features = false
+features = ["png"]
+
+[dependencies.clap]
+version = "4.5"
+default-features = false
+features = ["derive", "std"]
 
 [dev-dependencies]
-tempfile = "3.3.0"
+tempfile = "3.20"
